@@ -2,7 +2,10 @@ const {
   discoverMovie,
   getMovieById,
   getMovieByIdFailure
-} = require('../src')
+} 
+
+// this file (this test) depends on the modules in the src directory
+= require('../src/index')
 
 describe('API protocol practice', () => {
 // Note that is is not best practice to make actual API calls with 
